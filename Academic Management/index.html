@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+    <head>
+        <title>학사관리</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/jquery-3.5.1.min.js"></script> 
+        <script src="js/jquery.fullpage.js"></script>
+        <link href="js/jquery.fullpage.css" rel="stylesheet">
+        
+        <style>
+            .section {
+                background-attachment: fixed;
+                background-size: cover;
+                text-align: center;
+            }
+            
+            #section1 {
+                background-image: url(img/index1.jpg);
+            }
+            
+            #slide1 {
+                background-image: url(img/deajinphoto4.jpg);
+                background-size: cover;
+                padding: 6% 0 0 0;
+            }
+          
+            #slide4 {
+                background-image: url(img/index3.jpg);
+                background-size: cover;
+                padding: 6% 0 0 0;
+            }
+            
+            #slide7 {
+                background-image: url(img/index4.jpg);
+                background-size: cover;
+                padding: 6% 0 0 0;
+            }
+            
+            p {
+                font-family:cursive;
+                font-size: 5em;
+                color: white;
+                margin: 0;
+                position: absolute;
+                top: 40%;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .IndexBlock {
+                font-family:serif;
+                font-size: x-large;
+                font-style: bold;
+                color: white;
+                margin: 0;
+                position: absolute;
+                top: 55%;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .btn1 {
+                font-family:cursive;
+                font-size: large;
+                font-weight: 1000;
+                align-items: center;
+                display: inline-block;
+                padding: 25px 40px;
+                border: 3px solid #d9cbb3;
+                background-color: rgb(255,255,255,0.3);
+                text-align: center;
+                position: absolute;
+                left: 47.5%;
+                top: 70%;
+            }
+            
+            .btn2 {
+                font-family:cursive;
+                font-size: large;
+                font-weight: 1000;
+                align-items: center;
+                display: inline-block;
+                padding: 25px 40px;
+                border: 3px solid #d9cbb3;
+                background-color: rgb(255,255,255,0.3);
+                text-align: center; 
+                position: absolute;
+                left: 47.5%;
+                top: 70%;
+            }
+             .btn1:hover,.btn2:hover {
+                background-color:#d9cbb3;
+                color:dark;
+            }   
+        </style>
+        
+        <script>
+            $(document).ready(function() {
+               $('#fullpage').fullpage({
+                   anchors: [],
+                   verticalCentered: false,
+                   scrollingSpeed: 1000,
+                   navigation: true,
+                   slideNavigation: true,
+                   continuousVertical: false,
+               }); 
+            });
+        </script>
+    </head>
+    <body>
+        <div id="fullpage">
+            <div class="section" id="section1">
+                <p>전인적 교양인</p>
+                <div class="IndexBlock">나와 너, 우리를 배우는 대진인</div>
+                <form action="login.html" method="get">
+                    <input type="submit" value="학사관리" class="btn1">
+                </form>
+        </div>
+            
+        <div class="section" id="section2">
+            <div class="slide" id="slide1">
+                <p>창조적 실용인</p>
+                <div class="IndexBlock">글로벌 대진에서 세계를 향해 도전하라!</div>
+                <form action="login.html" method="get">
+                    <input type="submit" value="학사관리" class="btn2">
+                </form>
+            </div>
+        </div>
+            
+        <div class="section" id="section3">
+            <div class="slide" id="slide4">
+                <p>개방적 국제인</p>
+                <div class="IndexBlock">글로벌 리더를 꿈꾸고 그 꿈을 이루는 경쟁력을 키울 수 있는 곳</div>
+                <form action="login.html" method="get">
+                    <input type="submit" value="학사관리" class="btn2">
+                </form>
+            </div> 
+        </div>
+            
+        <div class="section" id="section4">
+            <div class="slide" id="slide7">
+                <p>실천적 전문인</p>
+                <div class="IndexBlock">글로벌 대진에서 세계를 향해 도전하라!</div>
+                <form action="login.html" method="post">
+                    <input type="submit" value="학사관리" class="btn2">
+                </form>
+            </div>
+         </div>
+            
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
