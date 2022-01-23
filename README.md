@@ -32,26 +32,27 @@
 ### 회원 관리
 ![777](https://user-images.githubusercontent.com/49806698/150683355-4e8ea380-a855-40b4-bbf7-928f5262ec56.png)
 
+### Main Page
+![888](https://user-images.githubusercontent.com/49806698/150683498-21eef084-f28a-45e7-918f-a6439b0ac948.png)
 
-## 3. Class 세부사항
-|클래스 OR 인터페이스|기능|
-|------|---|
-|User|유저 생성 (추상)|
-|moneyUser|2장 섯다 유저|
-|chipUser|3장 섯다 유저|
-|userManager|유저 관리|
-|computer|게임을 진행할 컴퓨터|
-|computerManager|컴퓨터 정보 관리|
-|mainpage|게임의 Main Page|
-|game(Interface)|게임 로직 인터페이스|
-|gameManager|게임 관리|
+### 공지사항
+![999](https://user-images.githubusercontent.com/49806698/150683526-b2fcdbb0-4477-496f-ab22-27c791c012dc.png)
+![101010](https://user-images.githubusercontent.com/49806698/150683531-44148694-4e91-43ea-89cc-d9c08f148aed.png)
 
 
-## 4. 실제 게임 화면
-![3](https://user-images.githubusercontent.com/49806698/150674949-f8f4ad67-ee93-4c83-85de-4a02880a9850.png)
+### 학적 정보
+![1111111](https://user-images.githubusercontent.com/49806698/150683546-e1423e0b-4de2-47c0-8a39-f30b4d277cfe.png)
+![1212121212](https://user-images.githubusercontent.com/49806698/150683549-d754a9d7-73ef-484a-93c4-7beafa4d2929.png)
+![1313131313](https://user-images.githubusercontent.com/49806698/150683556-1b3b0b2a-f3f6-4076-bd64-9e9f561e9da5.png)
 
 
-![4](https://user-images.githubusercontent.com/49806698/150674850-312a664d-60ea-47dc-9925-ab33fe23e5a9.png)
+## 5. 데이터베이스 설계
+![141414](https://user-images.githubusercontent.com/49806698/150683612-1b2d40b7-866e-4e69-ba55-e7421324d48e.PNG)
+
+
+
+
+
 
 
 ## Environment
