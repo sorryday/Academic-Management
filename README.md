@@ -54,16 +54,16 @@
 
 ## Environment
 
-> Java SDK Version 14 (Window)
-> 
+> HTML 5, CSS 3, JavaScript, PHP (Window)
+>
 > StatUML
 > 
-> Eclipse
+> Brackets, SQLyog
 
 
 
 ## Prerequisite
-> import Project to Eclipse
+> Download Project 
 > 
 > Run
 
